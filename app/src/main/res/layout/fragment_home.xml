@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/lb_tv_white"
+                android:focusable="false"
+                tools:context=".HomeActivity">
+
+
+    <Button
+            android:id="@+id/square_1"
+            style="@style/MyButton"/>
+
+    <Button
+            android:id="@+id/square_2"
+            style="@style/MyButton"
+            android:layout_toLeftOf="@id/square_1"
+            android:nextFocusLeft="@id/square_2"/>
+
+    <Button
+            android:id="@+id/square_3"
+            android:layout_toRightOf="@id/square_1"
+            style="@style/MyButton"/>
+
+    <Button
+            android:id="@+id/square_4"
+            android:layout_below="@id/square_1"
+            style="@style/MyButton"/>
+
+    <Button
+            android:id="@+id/square_5"
+            android:layout_above="@id/square_1"
+            style="@style/MyButton"/>
+
+</RelativeLayout>

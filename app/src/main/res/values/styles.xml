@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar"/>
+
+    <style name="MyButton">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">300dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@android:color/holo_red_light</item>
+        <item name="android:foreground">@drawable/focus</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+</resources>
